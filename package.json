@@ -1,13 +1,16 @@
 {
   "scripts": {
     "format": "pnpm dlx @biomejs/biome format . --write",
-    "dev:playground": "pnpm --filter ./playground run dev",
+    "build": "pnpm run build:package && pnpm run build:playground",
     "watch:package": "pnpm --filter ./package run watch",
-    "build:package": "pnpm --filter ./package run build"
+    "build:package": "pnpm --filter ./package run build",
+    "dev:playground": "pnpm --filter ./playground run dev",
+    "build:playground": "pnpm --filter ./playground run build"
   },
   "author": "glitch-txs",
   "license": "MIT",
   "devDependencies": {
-    "@biomejs/biome": "1.5.3"
+    "@biomejs/biome": "1.5.3",
+    "react": "18.2.0"
   }
 }
