@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/glitch-txs/cafe.git"
+    "url": "git+https://github.com/glitch-txs/create-react-state"
   },
   "keywords": [
     "store",
