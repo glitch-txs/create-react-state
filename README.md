@@ -1,10 +1,14 @@
+# Create React State
+
+## Install
+
 ```bash
-npm i react-cafe
+pnpm add create-react-state
 ```
 
 ### Create a useState
 
-You can call this outside React components
+You can create a "useState" outside React components
 
 ```ts
 import { createState } from 'create-react-state'
