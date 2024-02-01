@@ -1,6 +1,6 @@
 # Create React State
 
-## Install
+## Install ![npm bundle size](https://img.shields.io/bundlephobia/minzip/create-react-state)
 
 ```bash
 pnpm add create-react-state
