@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "format": "pnpm dlx @biomejs/biome format . --write",
+    "dev:playground": "pnpm --filter ./playground run dev",
+    "watch:package": "pnpm --filter ./package run watch",
+    "build:package": "pnpm --filter ./package run build"
+  },
+  "author": "glitch-txs",
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3"
+  }
+}
